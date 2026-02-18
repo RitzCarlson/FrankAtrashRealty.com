@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Frank Atrash Property Management and Realty | San Diego</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <style type="text/tailwindcss">
+        :root {
+            --primary-color: #1392ec;
+            --background-light: #f6f7f8;
+            --background-dark: #101a22;
+            --coastal-sand: #f4eee0;
+            --vibrant-orange: #ff6b00;
+        }
+        @layer utilities {
+            .text-balance {
+                text-wrap: balance;
+            }
+        }
+    </style>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1392ec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101a22",
+                        "sand": "#f4eee0",
+                        "vibrant-orange": "#ff6b00",
+                        "footer-dark": "#101a22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 overflow-x-hidden">
+    <header
+        class="sticky top-0 z-50 flex flex-col md:flex-row items-center justify-between border-b border-solid border-slate-100 bg-white/95 dark:bg-background-dark/95 backdrop-blur px-4 md:px-20 py-4 gap-4 md:gap-0">
+        <div class="flex items-center gap-3 text-primary w-full md:w-auto justify-center md:justify-start">
+            <span aria-hidden="true" class="material-symbols-outlined text-2xl md:text-3xl font-bold">home_work</span>
+            <h1
+                class="text-[#111518] dark:text-white text-sm md:text-lg font-extrabold leading-tight tracking-tight uppercase flex flex-col md:flex-row md:items-baseline md:gap-2 text-center md:text-left">
+                Frank Atrash <span class="font-light text-slate-500 dark:text-slate-400 text-[10px] md:text-sm">Property
+                    Management and Realty</span>
+            </h1>
+        </div>
+        <div class="flex flex-col md:flex-row items-center gap-4 md:gap-10 w-full md:w-auto">
+            <nav class="flex items-center gap-5 md:gap-10">
+                <a class="text-[#111518] dark:text-white text-[10px] md:text-sm font-bold hover:text-primary transition-colors"
+                    href="index.html">Home</a>
+                <a class="text-[#111518] dark:text-white text-[10px] md:text-sm font-bold hover:text-primary transition-colors"
+                    href="index.html#our-story">About Us</a>
+                <a class="text-[#111518] dark:text-white text-[10px] md:text-sm font-bold hover:text-primary transition-colors"
+                    href="index.html#testimonials-section">Testimonials</a>
+            </nav>
+            <a href="tel:+16197390008"
+                class="flex min-w-[120px] md:min-w-[200px] cursor-pointer items-center justify-center rounded-lg h-9 md:h-10 px-4 md:px-5 bg-vibrant-orange text-white text-[9px] md:text-sm font-extrabold shadow-lg shadow-vibrant-orange/20 hover:bg-vibrant-orange/90 transition-all whitespace-nowrap">
+                Call Now to Learn More
+            </a>
+        </div>
+    </header>
+    <main class="flex flex-col">
+        <section class="relative w-full">
+            <div class="p-0 sm:p-6 lg:p-10">
+                <div class="flex min-h-[500px] md:min-h-[750px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-none sm:rounded-xl items-center justify-center p-6 md:p-8 text-center relative overflow-hidden"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('images/hero-new.jpg');">
+                    <div class="max-w-4xl flex flex-col gap-6 relative z-10">
+                        <h2
+                            class="text-white text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black leading-tight tracking-tight drop-shadow-xl text-balance">
+                            Expert Property Management &amp; Realty in San Diego
+                        </h2>
+                        <p
+                            class="text-white text-base md:text-xl lg:text-2xl font-medium max-w-2xl mx-auto drop-shadow-lg text-balance">
+                            Providing local expertise and personalized service for your real estate needs in America's
+                            Finest City.
+                        </p>
+                        <div
+                            class="flex flex-col sm:flex-row justify-center gap-6 md:gap-16 items-center mt-8 bg-black/30 backdrop-blur-md p-6 rounded-2xl border border-white/10 w-fit mx-auto">
+                            <div class="flex flex-col items-center gap-1">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-white font-black text-xl italic">Yelp</span>
+                                    <div class="flex text-yellow-400">
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                    </div>
+                                </div>
+                                <p class="text-white/80 text-[8px] md:text-[10px] font-bold uppercase tracking-[0.2em]">
+                                    5 Star Rated Professional</p>
+                            </div>
+                            <div class="w-px h-8 bg-white/20 hidden sm:block"></div>
+                            <div class="flex flex-col items-center gap-1">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-white font-black text-xl">Zillow</span>
+                                    <div class="flex text-yellow-400">
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                        <span class="material-symbols-outlined fill-1 text-sm md:text-xl">star</span>
+                                    </div>
+                                </div>
+                                <p class="text-white/80 text-[8px] md:text-[10px] font-bold uppercase tracking-[0.2em]">
+                                    5 Star Premier Agent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="our-story" class="py-12 md:py-24 bg-sand dark:bg-background-dark/50">
+            <div class="container mx-auto px-6 lg:px-40">
+                <div class="grid lg:grid-cols-2 gap-12 md:gap-20 items-center">
+                    <div class="flex flex-col gap-6 text-center md:text-left">
+                        <h2 class="text-primary text-sm font-extrabold uppercase tracking-[0.2em]">About Us</h2>
+                        <h3
+                            class="text-[#111518] dark:text-white text-3xl md:text-4xl lg:text-5xl font-black leading-tight text-balance">
+                            San Diego's Boutique Property Management and Realty Firm
+                        </h3>
+                        <p class="text-slate-700 dark:text-slate-300 text-base md:text-lg leading-relaxed">
+                            Frank Atrash Property Management and Realty specializes in the dynamic San Diego market. We
+                            offer deep local expertise and a relentless commitment to providing property owners with
+                            personalized, professional service. Whether you are seeking a management partner for your
+                            investment portfolio or searching for your dream home along the coast, we bring decades of
+                            experience and a white-glove approach to every transaction.
+                        </p>
+                        <div class="grid grid-cols-2 gap-4 md:gap-8 mt-4">
+                            <div class="flex flex-col md:flex-row items-center md:items-start gap-4">
+                                <div class="p-3 bg-primary/10 rounded-xl shrink-0">
+                                    <span class="material-symbols-outlined text-primary text-2xl">verified</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold dark:text-white text-base">Licensed</h4>
+                                    <p class="text-xs text-slate-500">Fully DRE Certified</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col md:flex-row items-center md:items-start gap-4">
+                                <div class="p-3 bg-primary/10 rounded-xl shrink-0">
+                                    <span class="material-symbols-outlined text-primary text-2xl">location_on</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold dark:text-white text-base">Local</h4>
+                                    <p class="text-xs text-slate-500">San Diego Native</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="aspect-[4/3] rounded-3xl bg-slate-200 overflow-hidden shadow-2xl">
+                            <img alt="Modern coastal architecture" class="w-full h-full object-cover"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCopgf9qtZcNaiqg48wjfNtoGemZp4XZLxsD7OFJqQ13wRrDneSVdmfugcWlTyoVnJID4bB_avH3H7DxAjFzLq06ZcuiRbgxRR-_MUjrAhPgo_RmEEa0o4JcJb0tmG22IP2z0W_g5BkSbtyY8eDo814npsBOaQuMkl6teNJgaf0BjxekY7oBD-RDwRQWiUJBZyjXqLbBX3i-Y-FS3ZQdyfb9m7YFieKP0-r4VO-1CSrpuLEW8HZOX7t6IgWuu3iNAwWH9v-MHcCXBzm" />
+                        </div>
+                        <div
+                            class="absolute -bottom-6 -left-6 bg-primary p-6 md:p-10 rounded-2xl text-white hidden sm:block shadow-2xl">
+                            <p class="text-3xl md:text-5xl font-black italic">30+</p>
+                            <p class="text-[10px] md:text-sm font-bold opacity-80">Years of Personalized Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials-section" class="py-12 md:py-24 bg-white dark:bg-slate-900/30">
+            <div class="container mx-auto px-6 lg:px-20">
+                <div class="flex justify-center mb-12 md:mb-16 text-center">
+                    <div class="max-w-xl">
+                        <h2 class="text-[#111518] dark:text-white text-3xl md:text-4xl font-black leading-tight mb-4">
+                            What Our Clients Say</h2>
+                        <p class="text-base md:text-lg text-slate-600 dark:text-slate-400">Read about the experiences of
+                            property owners and tenants across San Diego.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 auto-rows-fr">
+                    <div
+                        class="bg-sand dark:bg-slate-800 p-8 md:p-10 rounded-2xl shadow-sm border border-slate-200/50 dark:border-slate-700 flex flex-col justify-between text-center md:text-left">
+                        <div class="flex flex-col items-center md:items-start">
+                            <div class="flex text-orange-500 mb-6">
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                            </div>
+                            <p
+                                class="text-slate-700 dark:text-slate-300 italic text-base md:text-lg mb-8 leading-relaxed">
+                                "Frank and his team are exceptional. They handled my property in La Jolla with such care
+                                and professionalism. I never have to worry about a thing."</p>
+                        </div>
+                        <div class="flex flex-col md:flex-row items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-cover bg-center bg-slate-200 shrink-0"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBxMthdfd7NplhQldnQ4TdVI4vGqkngWYsswVpDqSlFt1kwH7Iud5UQ4EjBU0h2K1eXmSSo0vyGu3xkn8JPSCfpGNoLOSwF4mmEP-jK3PXm71bZA-QrWlEwQyn0JxGeV-nogMHll9OOdjR9ltTzTZHvLdtnnjsM7nRmCLzL26S5dC6RDrDQswjpG1VSyRMSakNM2PbALblDKQpTT2vQboK-wRpVJ_SfZoSJ9RjlojTmUvP-gfTKfbk5nyeuD02v0gFE97RC4lM0qQVc')">
+                            </div>
+                            <div>
+                                <p class="font-bold text-slate-900 dark:text-white text-sm md:text-base">Sarah M.</p>
+                                <p class="text-xs text-slate-500 uppercase font-bold tracking-wider">Property Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-slate-800 p-8 md:p-10 rounded-2xl shadow-xl border border-slate-200 dark:border-slate-700 flex flex-col justify-between md:scale-105 ring-4 ring-primary relative z-10 text-center md:text-left">
+                        <div class="flex flex-col items-center md:items-start">
+                            <div class="flex text-orange-500 mb-6">
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                            </div>
+                            <p
+                                class="text-slate-700 dark:text-slate-300 italic text-base md:text-lg mb-8 leading-relaxed">
+                                "The best in San Diego, hands down. Communication is key in property management and
+                                Frank is always available to answer my calls. Highly recommend!"</p>
+                        </div>
+                        <div class="flex flex-col md:flex-row items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-cover bg-center bg-slate-200 shrink-0"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCL4iwS66yyQyRmy3qIg5Mb4yo3RqUAElrzRJanVzufDqKwpFMyUF8vNe33_ws4QEIJFw9wDXFlO0CaKFAfE-WOhkejskZfNgnn0KgRAEmCAUmz-9adQPntcB-jMajIJ5rsJ4ZElCAG_EmN8eKdMIFxjZ1XqE5p1ytHBh3ouYPk9Rb7crsvnHi8Gepdq40b0bml73iaw6aa2eyEpfmBoOGV1gWroI0sfKh_YLqkFIEKNUqJLcFZlgDUuL--1V_7BdagT4tX93ZATW74')">
+                            </div>
+                            <div>
+                                <p class="font-bold text-slate-900 dark:text-white text-sm md:text-base">David L.</p>
+                                <p class="text-xs text-slate-500 uppercase font-bold tracking-wider">Real Estate Client
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-sand dark:bg-slate-800 p-8 md:p-10 rounded-2xl shadow-sm border border-slate-200/50 dark:border-slate-700 flex flex-col justify-between text-center md:text-left">
+                        <div class="flex flex-col items-center md:items-start">
+                            <div class="flex text-orange-500 mb-6">
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                                <span class="material-symbols-outlined fill-1 text-xl">star</span>
+                            </div>
+                            <p
+                                class="text-slate-700 dark:text-slate-300 italic text-base md:text-lg mb-8 leading-relaxed">
+                                "Found my dream home through Frank. The local market knowledge he has is unmatched. He
+                                made a complex process seem easy."</p>
+                        </div>
+                        <div class="flex flex-col md:flex-row items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-cover bg-center bg-slate-200 shrink-0"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDcR0gn1YcXAnXXFHtI7qgZvxmCvwDs7SSpk1ibsn5TidfWfpshAYt1Ht6ep8WFDJcxzOs0iwn4-nfLCoxAKxZYK43UMZ561RwXI9Jx7XH1198GFWuahXzqCUad7Luhrif9KX_JPy8wm84ddFzq9UdLRCQteZrL3umDGbsPZDRST2GMRrc2V6QTb_Y6ZksDePMCDZvIg8PvPJCi89-zuNP8ALh4hNUfiVGhRyWOnR3wmBz-RaZabDBW0tWoYKIxGGqJoKZIl4m-FbNA')">
+                            </div>
+                            <div>
+                                <p class="font-bold text-slate-900 dark:text-white text-sm md:text-base">Michelle R.</p>
+                                <p class="text-xs text-slate-500 uppercase font-bold tracking-wider">Home Buyer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-12 md:mt-16">
+                    <a href="testimonials.html"
+                        class="flex min-w-[220px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary/10 text-primary text-base font-black hover:bg-primary hover:text-white transition-all shadow-lg hover:shadow-primary/20">
+                        Read more rave reviews
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="py-16 md:py-24 bg-vibrant-orange">
+            <div class="container mx-auto px-6 lg:px-20">
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-12 text-center lg:text-left">
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight">Let's Connect!
+                        </h2>
+                        <p class="text-lg md:text-xl lg:text-2xl font-medium text-white/90 max-w-2xl">
+                            Whether you're looking to lease, buy, or sell, our team is ready to help you navigate the
+                            San Diego market.
+                        </p>
+                    </div>
+                    <div class="shrink-0 w-full lg:w-auto">
+                        <a class="inline-flex w-full lg:w-auto items-center justify-center gap-4 bg-primary text-white text-lg md:text-xl font-bold px-10 md:px-12 py-5 md:py-6 rounded-2xl shadow-2xl shadow-black/30 hover:bg-primary/90 transition-all hover:scale-105"
+                            href="tel:+16197390008">
+                            <span class="material-symbols-outlined text-2xl md:text-3xl">call</span>
+                            Call Now to Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-footer-dark text-white pt-16 pb-12 px-6 lg:px-20">
+        <div
+            class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-16 text-center md:text-left">
+            <div class="col-span-1 lg:col-span-1 flex flex-col items-center md:items-start">
+                <div class="flex items-center gap-3 mb-8">
+                    <div
+                        class="size-12 bg-primary rounded-xl flex items-center justify-center text-white shrink-0 shadow-lg">
+                        <span class="material-symbols-outlined text-2xl">domain</span>
+                    </div>
+                    <div class="flex flex-col items-center md:items-start">
+                        <h3 class="font-bold text-xl leading-none uppercase tracking-wider">Frank Atrash</h3>
+                        <span class="text-[10px] uppercase tracking-widest text-white/50 font-bold mt-2">Property
+                            Management and Realty</span>
+                    </div>
+                </div>
+                <p class="text-white/60 text-base leading-relaxed mb-8">
+                    Frank Atrash Property Management and Realty provides expert property management and real estate
+                    services across San Diego County.
+                </p>
+                <div class="flex gap-6">
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center md:items-start">
+                <h4
+                    class="font-bold text-xl mb-8 relative after:content-[''] after:absolute after:-bottom-3 after:left-1/2 md:after:left-0 after:-translate-x-1/2 md:after:translate-x-0 after:w-10 after:h-1.5 after:bg-primary rounded-full">
+                    Contact</h4>
+                <ul class="space-y-6 text-base text-white/60">
+                    <li class="flex items-center gap-4 justify-center md:justify-start">
+                        <span class="material-symbols-outlined text-primary">call</span>
+                        <span>(619) 739-0008</span>
+                    </li>
+                    <li class="flex items-center gap-4 justify-center md:justify-start">
+                        <span class="material-symbols-outlined text-primary">mail</span>
+                        <span>FrankAtrash@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col items-center md:items-start">
+                <h4
+                    class="font-bold text-xl mb-8 relative after:content-[''] after:absolute after:-bottom-3 after:left-1/2 md:after:left-0 after:-translate-x-1/2 md:after:translate-x-0 after:w-10 after:h-1.5 after:bg-primary rounded-full">
+                    Licensing</h4>
+                <div class="space-y-6">
+                    <p class="text-lg text-white font-bold">DRE# 00976344</p>
+                    <p class="text-xs text-white/50 uppercase tracking-widest leading-relaxed font-bold">
+                        Frank Atrash Realty<br />
+                        Licensed Broker State of California
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
